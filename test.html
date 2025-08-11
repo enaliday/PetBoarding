@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page with Scroll Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      scroll-behavior: smooth; /* enables smooth scrolling */
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 100px 20px;
+      height: 100vh; /* full viewport height so you can scroll */
+      border-bottom: 1px solid #ddd;
+    }
+    #home { background: #f9f9f9; }
+    #about { background: #e0f7fa; }
+    #services { background: #ffe0b2; }
+    #contact { background: #c8e6c9; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to Our Landing Page</h1>
+    <p>This is the home section.</p>
+  </section>
+
+  <section id="about">
+    <h1>About Us</h1>
+    <p>Information about our company.</p>
+  </section>
+
+  <section id="services">
+    <h1>Our Services</h1>
+    <p>Details of the services we offer.</p>
+  </section>
+
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>How to get in touch.</p>
+  </section>
+
+</body>
+</html>
