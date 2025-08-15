@@ -51,5 +51,36 @@
 .testimonial-heading {
   position: absolute;
   left: 177px;
-  top: 2706.32;
+  top: 2706.32px;
+}
+
+.contact-info {
+  display: flex;          /* arrange children in a row */
+  justify-content: space-between; /* push left & right to edges */
+  align-items: flex-start; /* align items to the top */
+  padding: 20px;
+}
+
+.social, .contact-email {
+  width: 45%;             /* adjust width as needed */
+  /* optional styling */
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.bottom-navbar {
+  display: flex;
+  justify-content: space-between; /* left and right */
+  align-items: center;            /* vertically centered */
+  padding: 10px 20px;
+}
+
+.bottom-navbar p {
+  margin: 0;                      /* remove default margin */
+}
+
+.nav-links a {
+  margin-left: 15px;              /* spacing between links */
+  text-decoration: none;          /* remove underline */
 }
